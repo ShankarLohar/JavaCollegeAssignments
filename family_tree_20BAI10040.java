@@ -22,9 +22,9 @@ class Parent extends G_Parent{
 }
 
 abstract class Parent1 implements G_G_Parent{
-    void teaching(){ System.out.println("I can teach like my parent, grand parent and great grand parent!");}
-    void singing(){ System.out.println("I can sing like my parent, grand parent and great grand parent!");}
-    void laptop_handling(){ System.out.println("I can handle laptop like my parent, grand parent and great grand parent!");}
+    void teaching(){ System.out.println("I can teach like my parent1!");}
+    void singing(){ System.out.println("I can sing like my parent1!");}
+    void laptop_handling(){ System.out.println("I can handle laptop like my parent1!");}
 }
 
 class Child1 extends Parent{
