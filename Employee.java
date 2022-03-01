@@ -27,7 +27,7 @@ public class Employee {
     }
 
     private static void increaseSalaryForBhopal(Statement statement) throws SQLException {
-        statement.executeUpdate("UPDATE Employee SET Salary = Salary + 10000 WHERE Designation = 'Bhopal'");
+        statement.executeUpdate("UPDATE Employee SET Salary = Salary + 10000 WHERE Branch = 'Bhopal'");
         System.out.println("\n Bhopal Employee Salary Updated!\n");
     }
 
